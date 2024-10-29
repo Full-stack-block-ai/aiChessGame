@@ -5,6 +5,7 @@ module com.aichessgame {
     requires org.controlsfx.controls;
     requires org.kordamp.ikonli.javafx;
     requires org.kordamp.bootstrapfx.core;
+    requires java.logging;
 
     opens com.aichessgame to javafx.fxml;
     exports com.aichessgame;
