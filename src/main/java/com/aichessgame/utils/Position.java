@@ -1,5 +1,4 @@
 package com.aichessgame.utils;
-
 import java.util.Objects;
 
 public class Position {
@@ -44,7 +43,7 @@ public class Position {
             return false;
         }
         Position other = (Position) obj;
-        return row == other.row && column == other.column;
+        return this.row == other.row && this.column == other.column;
     }
 
     @Override
@@ -52,12 +51,11 @@ public class Position {
         return Objects.hash(row, column);
     }
 
-    // toString() method
     @Override
     public String toString() {
-        // Convert x and y to chess notation (e.g., 'e4')
-        char file = (char) ('a' + row);
-        int rank = column + 1;
+        // Be careful not to cause recursion
+        char file = (char) ('a' + column);
+        int rank = row + 1;
         return String.format("%c%d", file, rank);
     }
 }

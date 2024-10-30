@@ -44,3 +44,37 @@ Oct 29, 2024 9:59:57 PM com.aichessgame.utils.ChessLogger logError
 SEVERE: Error: Test error message
 Oct 29, 2024 9:59:57 PM com.aichessgame.utils.ChessLogger logEvent
 FINE: Event: Test event message
+Oct 29, 2024 10:17:51 PM com.aichessgame.utils.ChessLogger logMove
+INFO: Move: e2e4
+Oct 29, 2024 10:17:51 PM com.aichessgame.utils.ChessLogger logError
+SEVERE: Error: Test error message
+Oct 29, 2024 10:17:51 PM com.aichessgame.utils.ChessLogger logEvent
+FINE: Event: Test event message
+Oct 30, 2024 1:26:39 PM com.aichessgame.utils.ChessLogger logError
+SEVERE: Error: Attempted to move opponent's piece from: e7
+Oct 30, 2024 2:14:49 PM com.aichessgame.utils.ChessLogger logMove
+INFO: Move: WHITE moved from e2 to e4
+Oct 30, 2024 2:16:35 PM com.aichessgame.utils.ChessLogger logMove
+INFO: Move: BLACK moved from a7 to a5
+Oct 30, 2024 2:17:47 PM com.aichessgame.utils.ChessLogger logMove
+INFO: Move: WHITE moved from d1 to f3
+Oct 30, 2024 2:18:42 PM com.aichessgame.utils.ChessLogger logError
+SEVERE: Error: Invalid move from c8 to d6
+Oct 30, 2024 2:19:15 PM com.aichessgame.utils.ChessLogger logMove
+INFO: Move: BLACK moved from a5 to a4
+Oct 30, 2024 2:19:36 PM com.aichessgame.utils.ChessLogger logMove
+INFO: Move: WHITE moved from e4 to e5
+Oct 30, 2024 2:20:07 PM com.aichessgame.utils.ChessLogger logMove
+INFO: Move: BLACK moved from f7 to f5
+Oct 30, 2024 2:20:29 PM com.aichessgame.utils.ChessLogger logMove
+INFO: Move: WHITE moved from e5 to f6
+Oct 30, 2024 3:06:03 PM com.aichessgame.utils.ChessLogger logMove
+INFO: Move: WHITE moved from f2 to f3
+Oct 30, 2024 3:06:38 PM com.aichessgame.utils.ChessLogger logMove
+INFO: Move: BLACK moved from e7 to e5
+Oct 30, 2024 3:07:14 PM com.aichessgame.utils.ChessLogger logMove
+INFO: Move: WHITE moved from g2 to g4
+Oct 30, 2024 3:08:10 PM com.aichessgame.utils.ChessLogger logMove
+INFO: Move: BLACK moved from d8 to h4
+Oct 30, 2024 3:08:10 PM com.aichessgame.utils.ChessLogger logEvent
+FINE: Event: Checkmate! BLACK wins.
